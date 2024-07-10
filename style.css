@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+
+.link-text {
+    text-decoration: none;
+    color: black;
+}
+
+.my {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #fff;
+    max-width: 600px;
+    max-height: auto;
+    margin: auto;
+}
+
+.main-info {
+    padding: 1.5rem;
+}
+
+.image {
+    width: 100%;
+}
+
+.main-banner {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-img {
+    padding: 10px;
+}
+
+.text-opisania {
+    max-width: 500px;
+    margin: auto;
+}
+
+.text-banner-center {
+    text-align: center;
+}
+
+
+
+/* СКИДКИ */
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    margin: 0.9rem;
+}
+
+.text-center {
+    align-items: center;
+    text-align: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    width: clamp(8.125rem, 5.398rem + 13.64vw, 15.625rem);
+    height: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem);
+    align-items: center;
+    margin: auto;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+}
+
+.btn {
+    width: clamp(6.25rem, 3.977rem + 11.36vw, 12.5rem);
+    height: clamp(1.563rem, 0.994rem + 2.84vw, 3.125rem);
+    background-color: #2ABE80;
+    color: #fff;
+    border:none;
+    border-radius: 50px;
+    font-size: clamp(0.5rem, 0.227rem + 1.36vw, 1.25rem);
+}
+
+.btn-shop {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pa {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.card-text {
+    font-size: clamp(0.625rem, 0.443rem + 0.91vw, 1.125rem);
+}
+
+.text {
+    font-size: clamp(1rem, 0.818rem + 0.91vw, 1.5rem);
+    padding-bottom: 1.5rem;
+    margin: auto;
+}
+
+.wrappor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.card {
+    display: grid;
+
+    text-align: center;
+    background-color: #fff;
+    width: 150px;
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.card-img {
+    padding-bottom: 10px;
+}
+
+
+.text-descriptor {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    color: #cdcccc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+}
+
+
+.text-footer {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: clamp(0.875rem, 0.693rem + 0.91vw, 1.375rem);
+
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 30px;
+}
+
+.footer {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-green {
+    color:#2ABE80;
+    font-size: 1.5rem;
+}
+
+.messengers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    justify-content: center;
+    gap: 12px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
